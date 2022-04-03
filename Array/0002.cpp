@@ -2,11 +2,11 @@
 #include<vector>
 using namespace std;
 
-class 0002
+class solution
 {
 
 public:
-    removeDuplicates_solu1(vector<int>& nums)
+    int RemoveDuplicates_solu1(vector<int>& nums)
     {
         int index =2;
         for(int i = 2; i < nums.size(); i++)
@@ -19,7 +19,7 @@ public:
         return index;
     }
 
-    removeDuplicates_solu2(vector<int>& nums)
+    int RemoveDuplicates_solu2(vector<int>& nums)
     {
         const int n = nums.size();
         int index = 0;

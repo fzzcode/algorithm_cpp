@@ -2,11 +2,11 @@
 #include<vector>
 using namespace std;
 
-class 0001{
+class solution{
     pubilc:
-        int removeDuplicates(vector<int>& nums){
+        int RemoveDuplicates(vector<int>& nums){
+            
             if(nums.empty()) return 0;
-
             int index = 1;
             for(int i = 1; i<nums.size(); i++){
                 if(num[i] != nums[index -1]){
@@ -14,7 +14,7 @@ class 0001{
                 }
             }
             return index;
-        }
+        };
 };
 
 /*

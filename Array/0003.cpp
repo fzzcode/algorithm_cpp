@@ -4,7 +4,7 @@
 
 using namespace std;
 
-class 0003
+class solution
 {
     public:
         int longestConsecutive(const vector<int> &nums)
